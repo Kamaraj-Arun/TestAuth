@@ -1,0 +1,10 @@
+.addNewBtn {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: #4f1787;
+  border-radius: 5px;
+  color: white;
+  align-items: center;
+  font-size: 15px;
+}

@@ -1,0 +1,55 @@
+.sentenceRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 16px 0 0 0;
+    color: white;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.subSentence {
+    padding: 10px;
+    margin: 5px 0;
+    color: white;
+    margin-left: 1rem;
+}
+
+.toggleListContainer {
+    padding: 0 12rem;
+}
+
+.subsection {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    color: white;
+    margin: 0 1rem 0 1rem;
+    padding: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s ease;
+}
+
+/* Expanded state */
+.subsection.expanded {
+    max-height: 500px;
+    /* Large enough for dynamic content */
+    opacity: 1;
+    padding: 10px;
+}
+
+@media (max-width: 1000px) {
+    .toggleListContainer {
+        padding: 0;
+    }
+}
+
+@media (max-width: 430px) {
+    .toggleListContainer {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

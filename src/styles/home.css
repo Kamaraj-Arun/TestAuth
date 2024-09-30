@@ -1,0 +1,515 @@
+.heroBanner {
+  border-radius: 50px;
+  background: linear-gradient(180deg, #4f1787 0%, #221233 49.05%, #4c0098 100%);
+}
+
+.bannerContents {
+  padding: 71px 0px 71px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.heroTitle {
+  font-size: 84px;
+  color: white;
+  text-align: center;
+}
+
+.heroContent {
+  color: white;
+  font-size: 16px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.dealsTitle {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.dealsBackground {
+  background: rgb(73, 26, 95);
+  background: -moz-linear-gradient(90deg,
+      rgba(73, 26, 95, 1) 0%,
+      rgba(32, 2, 72, 1) 50%,
+      rgba(86, 37, 93, 1) 100%);
+  background: -webkit-linear-gradient(90deg,
+      rgba(73, 26, 95, 1) 0%,
+      rgba(32, 2, 72, 1) 50%,
+      rgba(86, 37, 93, 1) 100%);
+  background: linear-gradient(90deg,
+      rgba(73, 26, 95, 1) 0%,
+      rgba(32, 2, 72, 1) 50%,
+      rgba(86, 37, 93, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#491a5f", endColorstr="#56255d", GradientType=1);
+}
+
+.sellBuyTabContainer {
+  background-color: #0c0121;
+}
+
+.tabOptions {
+  display: flex;
+  justify-content: center;
+  padding-top: 125px;
+}
+
+.tabTextSell {
+  color: white;
+  padding: 10px 40px;
+  background-color: #1b0036;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.tabTextBuy {
+  color: white;
+  padding: 10px 40px;
+  background-color: #1b0036;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.activeTab {
+  background-color: #4f1787;
+}
+
+.sellTitle {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.tabContents {
+  padding-top: 50px;
+}
+
+.sellContents {
+  padding-top: 75px;
+  display: flex;
+  gap: 125px;
+  /* align-items: center; */
+}
+
+.sellImgContainer {
+  background-color: #2f144b;
+  border-radius: 12px;
+  width: 520px;
+}
+
+.tickIcon {
+  color: #9d7ac0;
+  font-size: 20px;
+}
+
+.sellPointContents {
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+  padding-left: 25px;
+}
+
+.sellPoints {
+  display: flex;
+  align-items: center;
+}
+
+.sellPoints:nth-child(n + 2) {
+  padding-top: 50px;
+}
+
+.signUpBtnSell {
+  padding: 13px 46px;
+  color: white;
+  background-color: #4f1787;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-top: 75px;
+}
+
+.sliderBackground {
+  background-color: #0c0121;
+}
+
+.sliderTitle {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  /* Adjust as needed */
+  max-width: 600px;
+  /* Set the max width of the image container */
+  border: 1px solid #2f144b;
+  /* Add a border to the overall image container */
+  border-radius: 12px;
+  /* Add border radius to the container */
+  overflow: hidden;
+}
+
+.sliderImage {
+  width: 100%;
+  /* Make the image responsive */
+  height: auto;
+  /* Maintain the aspect ratio */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  /* Full height to cover the image */
+  background: linear-gradient(180deg, rgba(26, 26, 26, 0) 0%, #1a1a1a 100%);
+  z-index: 1;
+  /* Ensure the overlay is on top of the image */
+}
+
+.sliderImgText {
+  position: absolute;
+  bottom: 40px;
+  /* Adjust the distance from the bottom */
+  left: 2%;
+  /* Adjust the horizontal position as needed */
+  right: 2%;
+  color: white;
+  font-size: 18px;
+  z-index: 2;
+  /* Place the text above the overlay */
+  text-align: center;
+}
+
+.stepsTitle {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.fourstepContent {
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  max-width: 80%;
+  padding-top: 16px;
+  margin-top: 12px;
+  /* Space between the line and the content */
+  flex-grow: 1;
+}
+
+.numberDesign {
+  padding: 24px 42px;
+  border-radius: 50%;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+}
+
+.numberOverAllContainer {
+  display: flex;
+  justify-content: space-between;
+  /* Evenly distribute the numbers */
+  padding-top: 85px;
+  max-width: 100%;
+  position: relative;
+  gap: 20px;
+}
+
+/* .numberOverAllContainer::before {
+  content: "";
+  background: url("../assets/wave.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  left: 0;
+  right: auto;
+  top: -10px;
+  background-size: cover;
+} */
+
+.numberContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  /* position: relative; */
+  flex: 1;
+  /* Make all containers take equal space */
+  min-width: 150px;
+  /* Ensures consistent width */
+  z-index: 2;
+}
+
+.numberDesign {
+  padding: 24px 42px;
+  border-radius: 50%;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+}
+
+.lineBelowNumber {
+  width: 2px;
+  /* Line width below the number */
+  height: 40px;
+  /* Thickness of the line */
+  background-color: #262626;
+  margin-top: 16px;
+  /* Space between the number and the line */
+}
+
+/* Wave background */
+.waveBackground {
+  position: absolute;
+  top: 50px;
+  /* Adjust as necessary to place the wave correctly */
+  left: 0;
+  right: 0;
+  height: 150px;
+  /* Adjust to the wave image's height */
+  background: url("../assets/wave.png") no-repeat center;
+  background-size: cover;
+  /* Ensure it covers the width */
+  z-index: 1;
+  /* Place behind the number content */
+}
+
+.updateTitle {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+.blogMainImgContainer {
+  background-color: #2f144b;
+  border-radius: 12px;
+  padding: 20px;
+  width: 50%;
+  /* Set container width */
+  height: 500px;
+  /* Set container height */
+  position: relative;
+  overflow: hidden;
+  /* Ensure contents stay inside the border radius */
+}
+
+@media (min-width: 1700px) {
+  .blogMainImgContainer {
+    height: 100%;
+  }
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  /* Ensures the image and overlay are within the rounded corners */
+}
+
+.blogMainImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.overlayGradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(26, 26, 26, 0) 0%, #1a1a1a 100%);
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.overlayText {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  right: 5%;
+  z-index: 2;
+  /* Make sure the text is above both the image and gradient */
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.updateIcon {
+  color: white;
+  font-size: 18px;
+}
+
+.blogSideImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f144b;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.imageWrapper {
+  width: 100%;
+}
+
+.recentUpdateGridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.recentDealsImgContainerDiv:nth-child(n + 2) {
+  padding-left: 15px;
+}
+
+.heroBanner img:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+.mainBannerPosterImages {
+  border: 1px solid #714685;
+  width: 220px;
+  height: 220px;
+  border-radius: 50px;
+  object-fit: cover;
+  object-position: top;
+  border-image-source: linear-gradient(180deg, #714685 0%, #8025aa 100%);
+}
+
+/* For screens >= 360px (Small Mobile) */
+@media (min-width: 360px) {
+  .heroTitle {
+    font-size: 40px;
+    /* Increase size slightly */
+  }
+}
+
+/* For screens >= 375px */
+@media (min-width: 375px) {
+  .heroTitle {
+    font-size: 42px;
+  }
+
+  .heroContent {
+    font-size: 15px;
+  }
+}
+
+/* For screens >= 420px */
+@media (min-width: 420px) {
+  .heroTitle {
+    font-size: 46px;
+  }
+
+  .heroContent {
+    font-size: 16px;
+  }
+
+  .bannerContents {
+    padding: 50px 0px;
+  }
+}
+
+/* For screens >= 480px (Medium Mobile) */
+@media (min-width: 480px) {
+  .heroTitle {
+    font-size: 50px;
+  }
+
+  .sellContents {
+    gap: 50px;
+  }
+
+  .numberDesign {
+    font-size: 30px;
+  }
+
+  .heroContent {
+    font-size: 17px;
+  }
+}
+
+/* For screens >= 768px (Tablet) */
+@media (min-width: 768px) {
+  .bannerContents {
+    flex-direction: row;
+    padding: 71px 0px;
+  }
+
+  .heroTitle {
+    font-size: 64px;
+  }
+
+  .heroContent {
+    font-size: 18px;
+  }
+
+  .sellContents {
+    flex-direction: row;
+    /* Side by side layout */
+    gap: 125px;
+  }
+
+  .numberDesign {
+    font-size: 36px;
+  }
+
+  .dealsTitle {
+    font-size: 20px;
+  }
+}
+
+/* For screens >= 780px */
+@media (min-width: 780px) {
+  .heroTitle {
+    font-size: 68px;
+  }
+
+  .heroContent {
+    font-size: 20px;
+  }
+
+  .sellContents {
+    gap: 130px;
+  }
+
+  .numberDesign {
+    font-size: 38px;
+  }
+}
+
+/* For screens >= 820px (Larger Tablets) */
+@media (min-width: 820px) {
+  .heroTitle {
+    font-size: 72px;
+  }
+
+  .heroContent {
+    font-size: 21px;
+  }
+
+  .sellContents {
+    gap: 140px;
+  }
+
+  .numberDesign {
+    font-size: 40px;
+  }
+}

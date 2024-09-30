@@ -1,0 +1,188 @@
+.cardLayout {
+  margin-top: 110px;
+  margin-bottom: 110px;
+  background: linear-gradient(90deg,
+      #4f1787 0.63%,
+      #221233 49.06%,
+      #4c0098 99.37%);
+  border-radius: 50px;
+  display: flex;
+  padding: 45px 50px;
+  justify-content: space-between;
+  gap: 30px;
+  /* align-items: center; */
+  align-items: stretch;
+  /* Ensures both children take the same height */
+  min-height: 500px;
+}
+
+.signInSliderContentsContainer,
+.loginLayout {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: nowrap; */
+  justify-content: center;
+}
+
+.loginLayout {
+  width: 50%;
+  min-height: 100%;
+}
+
+.signInText {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  /* padding-top: 40px; */
+}
+
+.loginSubtext {
+  font-size: 14px;
+  color: white;
+  font-weight: normal;
+}
+
+.marketPlaceTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.marketPlaceSearch {
+  display: flex;
+  background-color: #1b0036;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #2f144b;
+  font-size: 14px;
+  width: 300px;
+  align-items: center;
+}
+
+.searchIcon {
+  font-size: 18px;
+  color: #7721a8;
+  width: 10%;
+}
+
+.marketPlaceSearch input {
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 90%;
+}
+
+.filterTitleText {
+  color: white;
+  padding: 12px 48px;
+  text-align: center;
+}
+
+.filterTextContainer {
+  background-color: #4f1787;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.marketPlaceSearch input::placeholder {
+  font-size: 14px;
+  color: white;
+}
+
+.loginLabel {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.loginForm aside {
+  padding-top: 25px;
+}
+
+.loginForm aside input {
+  margin-top: 15px;
+  background-color: #1b0036;
+  outline: none;
+  border: 1px solid #2f144b;
+  padding: 13px 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.forgotPass {
+  color: white;
+  font-size: 12px;
+  float: right;
+  text-decoration: underline;
+  padding-top: 15px;
+}
+
+.loginForm button {
+  background-color: white;
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 11px 15px;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.loginSocial {
+  background: #1b0036;
+  padding: 12px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.accSignUp {
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.accSignUp span {
+  text-decoration: underline;
+}
+
+.signInSliderContents {
+  color: #d7b3fb !important;
+  font-size: 24px;
+  text-align: center;
+}
+
+.slick-dots {
+  bottom: -80px !important;
+}
+
+.slick-dots li button:before {
+  color: #d9d9d9;
+  font-size: 10px;
+}
+
+.slick-dots .slick-active button:before {
+  color: #ad5eff !important;
+}
+
+@media (max-width: 430px) {
+
+  .loginLayout,
+  .signInSliderContentsContainer {
+    width: 100%;
+  }
+
+  .cardLayout {
+    flex-wrap: wrap;
+  }
+
+
+}

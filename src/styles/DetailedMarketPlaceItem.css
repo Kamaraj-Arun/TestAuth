@@ -1,0 +1,240 @@
+/* Container for the entire layout */
+.movieDetailsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #0b0125;
+    color: white;
+    flex-wrap: wrap;
+  }
+
+  .viewership {
+    width: 15%;
+    padding: 1rem;
+    background-color: #2F144B;
+    border-radius: 42%;
+  }
+  
+  .movie-poster img {
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .tags {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .movieInfo {
+    width: 50%;
+  }
+  
+  .movieInfo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .movieDuration {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  .tags span {
+    background-color: #2F005D;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .movieDescription {
+    margin: 20px 0 !important;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .movie-rating {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .infoIcons {
+    width: 3%;
+    margin-right: 0.5rem;
+  }
+
+  .infoContent {
+    font-size: 0.75rem;
+    color: #7C7A81;
+  }
+  
+  hr {
+    border-top: dotted 2px;
+    margin: 20px 0;
+  }
+  
+  .more-info {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  .more-info p {
+    margin: 10px 0;
+  }
+
+  .availableRightsHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .claimRights {
+    margin-left: 1rem;
+    background-color: #03ffc2;
+    color: black;
+    border-radius: 8px;
+    padding: 0px 31px;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  /* Sign-in box for forecasting metrics */
+  .signInBox {
+    background-color: #1B0036;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .signInBoxHeading {
+    margin-bottom: 20px !important;
+    font-weight: 700;
+  }
+
+  .signInBoxText {
+    margin-top: 6px !important;
+    font-size: 0.7rem;
+  }
+  
+  .forecasting-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .forecasting-icons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .forecasting-icons span {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  
+  .signInButton {
+    background-color: #2F005D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .marginTop10 {
+    margin-top: 10px !important;
+  }
+
+  .mediaIcons {
+    margin-right: 2rem;
+    width: 4%;
+    cursor: pointer;
+  }
+  
+
+  /* Styling for the rights container */
+.rightsContainer {
+    padding: 1rem 4.5rem;
+    color: white;
+    background-color: #0b0125;
+  }
+
+  .rightContainerContent {
+    margin: 3rem 4rem;
+    background-color: #1B0036;
+    padding: 3rem;
+  }
+
+  .category {
+    margin-top: 2rem !important;
+  }
+  
+  .category-section {
+    margin-bottom: 20px;
+  }
+  
+  .checkboxGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  
+  .checkbox-item {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #999999;
+  }
+  
+  /* Styling the checkbox */
+  .checkbox-item input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 2px solid #402758;
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  /* When the checkbox is checked */
+  .checkbox-item input[type="checkbox"]:checked {
+    background-color: #00FFC2;
+    border-color: #00FFC2;
+  }
+  
+  /* Add a custom tick mark */
+  .checkbox-item input[type="checkbox"]:checked::after {
+    content: '✓';
+    font-size: 14px;
+    color: #2F144B;
+    position: absolute;
+    top: 1px;
+    left: 4px;
+  }
+
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .movie-details-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .movie-info {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .movie-poster img {
+      width: 80%; /* Reduce the poster size on smaller screens */
+    }
+  }

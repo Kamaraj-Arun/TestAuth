@@ -1,0 +1,529 @@
+@import url("../styles/typography.css");
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px 163px;
+  box-sizing: border-box;
+
+  @media (max-width: 1336px) {
+    /* margin: 0px 100px; */
+  }
+
+  @media (min-width: 1440px) {
+    /* max-width: 1340px; */
+  }
+
+  @media (min-width: 1600px) {
+    /* max-width: 1440px; */
+  }
+
+  @media (min-width: 1720px) {
+    /* margin: 0px auto; */
+  }
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  /* 100% of the viewport height */
+  text-align: center;
+  /* Center the text inside the div */
+}
+
+.bannerContentOutBox {
+  left: 0;
+  margin-right: 120px;
+  /* transform: none, */
+}
+
+.centered-container h1 {
+  font-size: 60px;
+}
+
+.centered-container h6 {
+  font-size: 28px;
+}
+
+.clientsTitle {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+
+.clientsContainerBox {
+  border: 1px solid #2f144b;
+  background-color: #0d0123;
+  border-radius: 25px;
+  margin-top: 25px;
+  padding: 108px 108px 64px 108px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(6,
+      1fr);
+  /* For the first row: 6 equal columns */
+  gap: 20px;
+  /* Adjust gap as needed */
+  margin-bottom: 20px;
+  /* Add space between rows */
+}
+
+.secondRow {
+  grid-template-columns: repeat(6, 1fr);
+  /* Keep the grid structure the same */
+  gap: 20px;
+  grid-column-start: 2;
+  /* Start the second row from the second column */
+  margin-top: 75px;
+}
+
+.secondRow img:first-child {
+  grid-column: 2 / span 1;
+  /* Start the first image in the second column */
+}
+
+.clientImage {
+  width: 80px;
+  height: 40px;
+  object-fit: contain;
+  /* Ensure image fits within the box */
+}
+
+.testiContainerDiv {
+  border: 1px solid #2f144b;
+  border-radius: 25px;
+  background-color: #1b0036;
+  padding-top: 80px;
+  padding-bottom: 110px;
+}
+
+.testiImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reasonsContainer {
+  background-color: #0a011e;
+  padding: 0px 10rem 0px 10rem;
+}
+
+.reasonsContainer {
+  background-color: #0a011e;
+  padding: 0px 10rem 0px 10rem;
+}
+
+.industryContent {
+  color: #999999;
+  font-size: 16px;
+  padding-top: 25px;
+  line-height: 27px;
+}
+
+.industryTitle {
+  font-size: 24px;
+  color: white;
+}
+
+.testiLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+}
+
+.testiLeft p {
+  padding-top: 20px;
+}
+
+.testiRight {
+  width: 65%;
+}
+
+.sellBannerTitle {
+  font-size: 24px;
+  color: white;
+}
+
+.chatSaleBtn {
+  background-color: white;
+  padding: 18px 24px;
+  border-radius: 8px;
+  color: #4f1787;
+}
+
+.signSaleBtn {
+  background-color: #000000;
+  color: white;
+  padding: 18px 24px;
+  border-radius: 8px;
+}
+
+body {
+  background: rgb(79, 31, 96);
+  background: -moz-linear-gradient(73deg,
+      rgba(79, 31, 96, 1) 0%,
+      rgba(33, 4, 73, 1) 50%,
+      rgba(85, 37, 91, 1) 100%);
+  background: -webkit-linear-gradient(73deg,
+      rgba(79, 31, 96, 1) 0%,
+      rgba(33, 4, 73, 1) 50%,
+      rgba(85, 37, 91, 1) 100%);
+  background: linear-gradient(73deg,
+      rgba(79, 31, 96, 1) 0%,
+      rgba(33, 4, 73, 1) 50%,
+      rgba(85, 37, 91, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4f1f60", endColorstr="#55255b", GradientType=1);
+}
+
+
+/* Responsive */
+
+@media (min-width: 1336px) {
+  .container {
+    margin: 0px 163px;
+  }
+
+  .heroTitle {
+    font-size: 54px;
+  }
+
+  ul {
+    display: flex;
+    gap: 40px;
+  }
+
+  .tabContentsChild,
+  .clientsContainerBox {
+    justify-content: center;
+  }
+
+  .DigitalRightsSliderCont {
+    flex-wrap: nowrap;
+  }
+
+  .recent-Updates {
+    flex-wrap: nowrap;
+  }
+
+  .bannerContentOutBox {
+    left: 0;
+  }
+
+  .bannerContents-child {
+    padding-left: 70px;
+    /* width: fit-content; */
+    flex-direction: column;
+  }
+
+  .sellImgContainer {
+    width: 480px;
+    height: 100px;
+  }
+
+}
+
+@media (max-width: 1280px) {
+  .container {
+    margin: 0px 20px;
+  }
+
+  ul {
+    gap: 10px;
+  }
+
+  .heroTitle {
+    font-size: 40px;
+  }
+
+  .bannerContents-child {
+    flex-direction: column;
+    padding-left: 25px;
+  }
+
+  .tabContentsChild {
+    justify-content: center;
+  }
+
+  .sellContents {
+    justify-content: center;
+  }
+
+  .signUpBtnSell-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dealsmidcontainer {
+    justify-content: center;
+  }
+
+  .clientsContainerBox {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 0px 10px;
+  }
+
+  ol,
+  ul {
+    margin-bottom: 0px;
+    gap: 7px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  .loginBtn {
+    padding: 4px 21px;
+  }
+
+  .DigitalRightsSliderCont {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .bannerContents-child {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+  }
+
+  .bannerContents {
+    justify-content: center;
+  }
+
+  .bannerContents-child {
+    /* padding-left: 44px; */
+    width: 100%;
+    padding-bottom: 40px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bannerContentOutBox {
+    /* left: 20%; */
+    margin-top: 40px;
+    margin-left: 120px;
+  }
+
+  .sellContents {
+    justify-content: center;
+  }
+
+  .signUpBtnSell-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .recent-Updates {
+    flex-wrap: wrap;
+  }
+
+  .image-container {
+    max-width: 300px;
+  }
+
+  .blogMainImgContainer {
+    width: 100%;
+  }
+
+  .sellBannerDiv {
+    margin-top: 20px;
+  }
+
+  .clientsContainerBox {
+    /* padding: 108px 50px 64px 50px; */
+    padding: 58px 0;
+    justify-content: center;
+  }
+
+  .footerLinks {
+    gap: 20px;
+  }
+
+  .fooContentContainer {
+    padding: 75px 10px;
+  }
+}
+
+@media (max-width: 540px) {
+  .numberOverAllContainer {
+    flex-wrap: wrap;
+  }
+
+  .row {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .sellImgContainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 430px) {
+  .container {
+    margin: 0px 10px;
+  }
+
+  .testiRight {
+    width: 100%;
+  }
+
+  ul {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .header-logo {
+    width: 150px;
+  }
+
+  .heroTitle {
+    font-size: 34px;
+  }
+
+  .bannerContents-child {
+    /* padding-left: 44px; */
+    width: 100%;
+    padding-bottom: 40px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .recent-Updates {
+    flex-wrap: wrap;
+  }
+
+  .midSectionContainer {
+    padding: 0;
+  }
+
+  .textStyle {
+    padding-left: 10px;
+  }
+
+  .mainBannerPosterImages {
+    width: 220px;
+    height: 220px;
+  }
+
+  .bannerContentOutBox {
+    left: 17%;
+    margin-right: 120px;
+    margin-left: 0;
+  }
+
+  .testiLeft {
+    width: 100%;
+  }
+
+  .testiLeftname {
+    width: 100%;
+    text-align: center;
+  }
+
+  .testiLeftDesc {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tabOptions {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .tabContents {
+    width: 100%;
+  }
+
+  .DigitalRightsSliderCont {
+    flex-wrap: wrap;
+  }
+
+  .sellContents {
+    flex-direction: column;
+  }
+
+  .sellImgContainer {
+    /* width: 330px; */
+    width: 90%;
+  }
+
+  .sellBannerDiv {
+    padding-top: 30px;
+  }
+
+  .signUpBtnSell-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .numberOverAllContainer {
+    flex-direction: column;
+  }
+
+  .blogMainImgContainer {
+    width: 100%;
+  }
+
+  .testiLeftverDiv {
+    flex-direction: column;
+  }
+
+  li,
+  .dealsBtn,
+  .loginBtn {
+    font-size: 10px !important;
+  }
+
+  .clientsContainerBox {
+    padding: 40px 40px 64px 40px;
+    width: 70%;
+  }
+
+  .footerLinks {
+    padding: 20px 0;
+    margin: 10px;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: repeat(3,
+        1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .testAuth {
+    overflow-x: hidden;
+  }
+
+  .reasonsContainer {
+    padding: 0;
+  }
+}

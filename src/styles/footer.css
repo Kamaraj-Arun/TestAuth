@@ -1,0 +1,72 @@
+.fooContentContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 75px 0;
+  align-items: center;
+}
+
+.footerTitle {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+.footerText {
+  color: #999999;
+  font-size: 16px;
+}
+
+.foocont {
+  width: 100%;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footerLinks li {
+  list-style-type: none;
+  color: #999999;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footerLinks li:nth-child(n + 2) {
+  padding-top: 25px;
+}
+
+.connectTitle {
+  font-size: 18px;
+  color: white;
+}
+
+.socialLinksContainer {
+  padding-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.socialLinks {
+  background-color: #4f1787;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.socialIcons {
+  color: white;
+  font-size: 20px;
+}
+
+.footerCopyRight {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+  font-size: 12px;
+  border-top: 1px solid #262626;
+}

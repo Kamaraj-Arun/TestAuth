@@ -1,0 +1,63 @@
+.accordion-content {
+  max-height: 0;
+  /* overflow: hidden;  /* i am hiding this due to drop down visibility */
+  opacity: 0;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.accordion-content.open {
+  max-height: 200px;
+  opacity: 1;
+}
+
+.accordion-content.collapsed {
+  max-height: 0;
+  opacity: 0;
+}
+.filterItems {
+  padding: 0px 20px 20px 20px;
+}
+.filterItems:first-child {
+  padding-top: 20px;
+}
+.custom-radio {
+  appearance: none;
+  border: 1px solid #4f1787;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-radio:checked::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #4f1787;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.releaseLabel {
+  padding-left: 10px;
+  font-size: 14px;
+  color: white;
+}
+.rs-slider-handle:before {
+  background-color: #4f1787 !important;
+  border: 2px solid #4f1787 !important;
+  width: 18px !important;
+  height: 18px !important;
+  bottom: -15px !important;
+}
+.rs-slider-graduator > ol > li.rs-slider-pass:before {
+  border-color: #4f1787 !important;
+}
+.spanMin {
+  color: white;
+  font-size: 12px;
+}

@@ -1,0 +1,50 @@
+.dealsBtn {
+  color: white;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 5px;
+  background-color: #2f005d;
+  padding: 4px 14px;
+}
+.loginBtn {
+  background-color: #000000;
+  padding: 7px 21px;
+  border-radius: 6px;
+  color: white;
+}
+.headerBackground {
+  /* background: rgb(72, 26, 95);
+  background: -moz-linear-gradient(
+    73deg,
+    rgba(72, 26, 95, 1) 0%,
+    rgba(34, 4, 74, 1) 50%,
+    rgba(86, 37, 94, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    73deg,
+    rgba(72, 26, 95, 1) 0%,
+    rgba(34, 4, 74, 1) 50%,
+    rgba(86, 37, 94, 1) 100%
+  );
+  background: linear-gradient(
+    73deg,
+    rgba(72, 26, 95, 1) 0%,
+    rgba(34, 4, 74, 1) 50%,
+    rgba(86, 37, 94, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#481a5f",endColorstr="#56255e",GradientType=1); */
+}
+.profileDropdown {
+  position: absolute;
+  top: 30px;
+  background-color: #2f144b;
+  padding: 10px 20px;
+  width: 160px;
+  box-sizing: border-box;
+  color: white;
+}
+.profileDropdown p:hover {
+  color: #b27ce9;
+}

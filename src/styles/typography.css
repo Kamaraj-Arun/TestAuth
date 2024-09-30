@@ -1,0 +1,30 @@
+.ft18 {
+  font-size: 18px;
+}
+.ft16 {
+  font-size: 16px;
+}
+.ft14 {
+  font-size: 14px;
+}
+.ft24 {
+  font-size: 24px;
+}
+.ftw400 {
+  font-weight: 400;
+}
+.ftw500 {
+  font-weight: 500;
+}
+.ftw600 {
+  font-weight: 600;
+}
+.ftw700 {
+  font-weight: 700;
+}
+.fontPoppins {
+  font-family: "Poppins", sans-serif !important ;
+}
+.text-white {
+  color: white;
+}

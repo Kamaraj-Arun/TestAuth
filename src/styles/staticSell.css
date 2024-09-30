@@ -1,0 +1,225 @@
+.tagLine {
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 37px;
+    margin-left: 15%;
+    padding-top: 7%;
+}
+
+.heading {
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 2rem;
+}
+
+.backgroundCover {
+    background-size: "cover";
+    background-position: "center";
+    background-repeat: "no-repeat";
+    height: "25vh";
+    width: "100vw";
+}
+
+.midSectionImage {
+    width: 100%;
+}
+
+.midSectionContainer {
+    display: flex;
+    padding: 3rem 10rem;
+    align-items: center;
+}
+
+.midSectionContentContainer {
+    padding: 3rem;
+}
+
+.midSectionTagLine {
+    color: white;
+    font-size: 2rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.midSectionContent {
+    color: white;
+    font-family: "Manrope", sans-serif;
+}
+
+.midSectionContentText {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.reasonsToChooseContainer {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+    justify-content: center;
+}
+
+/* .reasonsContainer {
+    background-color: #0a011e;
+    padding: 0px 10rem 0px 10rem;
+} */
+
+.moreReasonsContainer {
+    background-color: #1B0036;
+    padding: 0px 100px 0px 100px;
+}
+
+.reasonImage {
+    width: 10%;
+}
+
+.reasonContainer {
+    background-color: #1B0036;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    height: 7rem;
+    justify-content: space-evenly;
+}
+
+.moreReasonsSection {
+    display: flex;
+    padding: 3rem 10rem;
+    align-items: center;
+}
+
+.moreReasonsImageContainer {
+    width: 50%;
+}
+
+.moreReasonsImage {
+    width: 100%;
+}
+
+.moreReasonsContentContainer {
+    padding: 3rem;
+}
+
+.moreReasonsContent {
+    color: white;
+    font-family: "Manrope", sans-serif;
+}
+
+.moreResonsCheckCircle {
+    width: 21px;
+}
+
+.moreReasons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.reasonText {
+    margin-top: -5px;
+    margin-left: 12px;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.startBuyingContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
+}
+
+.whatsappChatContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #2F005D;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.signUpForFreeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.whatsappChatImage {
+    width: 10%;
+}
+
+.textStyle {
+    color: white;
+    font-family: "Manrope", sans-serif;
+}
+
+.buyingContentRightsContainer {
+    padding: 3rem 3rem;
+}
+
+@media (max-width: 1000px) {
+    .midSectionContainer {
+        padding: 0;
+    }
+
+    .midSectionImage {
+        padding-left: 5px;
+    }
+
+    /* 
+    .testAuth {
+        overflow: hidden;
+    } */
+}
+
+@media (max-width: 430px) {
+    .startBuyingContainer {
+        padding: 2rem;
+        gap: 20px;
+    }
+
+    .midSectionContainer {
+        /* justify-content: center; */
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .tagLine {
+        padding-top: 17%;
+    }
+
+    .moreReasonsContainer {
+        padding: 0;
+    }
+
+    .moreReasonsSection {
+        padding: 3rem 3rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
